@@ -1,0 +1,7 @@
+# Settings shared by every post in this folder.
+
+# Never re-run code in old posts on a site render.
+freeze: true
+
+author: "Sebastian A. J. Lortz"
+toc: false

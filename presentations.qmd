@@ -1,14 +1,5 @@
 ---
 title: "Presentations"
-format: html
 ---
 
-## Presentations
-
-::: hanging-indent
-**Lortz, S. A. J.** (2024, December 16). Simulating Raw Data from Limited Statistics: Advancing Replication Study Decision-Making [Seminar Presentation]. University of Groningen, Groningen, Netherlands.
-
-**Lortz, S. A. J.**, Post, W. J., Koopman, L., Paap, M. C. S. (2024, November 28). Stability and Scalability in Mokken Scale Analysis: Challenges with Small Samples and Deviant Items [Conference Presentation]. 38th IRT Workshop, University of Twente, Enschede, Netherlands.
-
-**Lortz, S. A. J.** (2024, April 24). A Simple Introduction to Monte Carlo Simulations for a Priori Power Analyses [Seminar Presentation]. University of Groningen, Groningen, Netherlands.
-:::
+{{< include _content/presentations.qmd >}}

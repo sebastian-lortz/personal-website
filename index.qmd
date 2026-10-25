@@ -1,6 +1,9 @@
 ---
 title: "Sebastian A. J. Lortz"
 image: images/bio-pic.jpg
+toc: false
+execute:
+  freeze: false
 about:
   template: trestles
   links:
@@ -13,28 +16,73 @@ about:
     - text: ORCID
       icon: person-circle
       url: "https://orcid.org/0009-0007-0281-7996"
+    # - text: Scholar
+    #   icon: mortarboard
+    #   url: "https://scholar.google.com/citations?user=YOUR_ID"
     - text: RUG
       icon: bank
       url: "https://www.rug.nl/staff/s.a.j.lortz/"
+    - text: CV
+      icon: file-earmark-pdf
+      url: "cv.pdf"
     - text: Email
       icon: envelope
       url: "mailto:s.a.j.lortz@gmail.com"
 comments: false
 ---
 
-# Sebastian Lortz
-
 ## Bio
-I am currently pursuing a PhD in psychometrics, backed by a foundation in statistics, psychology and health sciences. In my roles at the university, I actively contribute to research, employ advanced statistical methodologies, and foster collaborative learning environments.
+I am a PhD candidate in psychometrics at the University of Groningen. My research focuses on item response theory, computerized adaptive testing, and statistical methods in psychology and related fields. I also teach statistics and R at the Faculty of Behavioural and Social Sciences.
 
-My diverse academic and non-academic experience provide a comprehensive perspective, shaping my personal skills. I excel in varied environments, enhancing my collaborative potential in diverse teams and bringing adaptability and effective communication to projects.
+I studied health sciences in Munich and psychology in Groningen, followed by a research master's in psychometrics and statistics.
 
-Open to professional connections, I actively seek collaborations in the academic and research communities!
+I welcome contact from researchers interested in collaborating on the topics below, and on psychometrics more broadly.
+
+## PhD Project
+
+{{< include _content/research.qmd >}}
 
 ## Research Interests
 
-My research interests is broad and centers around
+My research interests are broad and center on:
+
 -   Item Response Theory and Response Time Modeling
 -   Computerized Adaptive Testing
--   Application of statistical (learning) methods
+-   Bayesian Inference
+-   Application of machine learning methods
 
+## Recent Work
+
+```{r}
+#| echo: false
+#| output: asis
+
+# Returns the first entry in a content file, so the home page always shows the
+# newest item. With `heading`, it starts looking below that heading.
+# Keep the newest entry first in each list.
+first_entry <- function(file, heading = NULL) {
+  lines <- trimws(readLines(file, warn = FALSE, encoding = "UTF-8"))
+  start <- if (is.null(heading)) 0 else which(lines == heading)[1]
+  if (is.na(start) || start >= length(lines)) return(NULL)
+  rest <- lines[(start + 1):length(lines)]
+  rest <- rest[!startsWith(rest, ":::")]
+  first <- which(nzchar(rest))[1]
+  if (is.na(first) || startsWith(rest[first], "#")) return(NULL)
+  rest <- rest[first:length(rest)]
+  end <- which(!nzchar(rest) | startsWith(rest, "#"))[1]
+  entry <- if (is.na(end)) rest else rest[seq_len(end - 1)]
+  paste(sub("\\\\$", "", entry), collapse = " ")
+}
+
+pub  <- first_entry("_content/publications.qmd", "## Journal Articles")
+talk <- first_entry("_content/presentations.qmd")
+
+cat("::: hanging-indent\n")
+if (!is.null(pub)) {
+  cat("**Latest publication** · [all publications](publications.qmd)\\\n", pub, "\n\n", sep = "")
+}
+if (!is.null(talk)) {
+  cat("**Latest presentation** · [all presentations](presentations.qmd)\\\n", talk, "\n\n", sep = "")
+}
+cat(":::\n")
+```

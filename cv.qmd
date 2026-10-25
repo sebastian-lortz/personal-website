@@ -1,0 +1,85 @@
+---
+title: "Sebastian A. J. Lortz"
+subtitle: "Curriculum Vitae"
+format:
+  html:
+    toc: true
+  typst:
+    papersize: a4
+    margin:
+      x: 2cm
+      y: 2cm
+    fontsize: 10pt
+    toc: false
+format-links:
+  - text: Download PDF
+    format: typst
+    icon: file-pdf
+---
+
+PhD Candidate in Psychometrics, University of Groningen\
+[s.a.j.lortz@gmail.com](mailto:s.a.j.lortz@gmail.com) · [ORCID](https://orcid.org/0009-0007-0281-7996) · [GitHub](https://github.com/sebastian-lortz) · [LinkedIn](https://www.linkedin.com/in/sebastian-lortz-408797213/)
+
+# Research Profile
+
+{{< include _content/research.qmd >}}
+
+# Positions
+
+::: hanging-indent
+**PhD Candidate in Psychometrics**, University of Groningen \| 2025, September–present\
+*Models for Computer Adaptive Testing of Cognitive Functions*, funded by KWF.
+
+**Research Assistant**, University of Groningen \| 2025, January–2025, July\
+Re-analysed cross-national studies with spatial and phylogenetic Bayesian regression methods to account for cross-national statistical dependencies.
+
+**Research Assistant**, University of Groningen \| 2024, February–2025, February\
+Developed two new sample-size planning methods for Bayesian interval testing in 2 × 2 factorial designs, integrated them with two existing methods into an R package and a server-hosted Shiny app, and coordinated the project with (inter)national collaborators.
+
+**Statistics and Research Consultant**, The Methodology Shop, University of Groningen \| 2024, January–2025, August\
+Delivered statistical consultation and methodological guidance to (Ph.D.) students and staff, covering Bachelor/Master theses, Ph.D. dissertations, (inter)national research projects, and proposals for theses and doctoral studies.
+
+**Research Assistant**, University of Groningen \| 2023, October–2023, December\
+Collected data for an experimental study and monitored the study's progress.
+
+**Teaching Assistant, Statistics II**, B.Sc. Psychology, University of Groningen \| 2022, September–2025, January\
+Prepared and facilitated practical sessions on statistical methods in the Statistics II course.
+:::
+
+# Education
+
+{{< include _content/degrees.qmd >}}
+
+# Publications
+
+{{< include _content/publications.qmd >}}
+
+# Presentations
+
+{{< include _content/presentations.qmd >}}
+
+# Grants & Awards
+
+::: hanging-indent
+***Cum laude***, M.Sc. Research Behavioural and Social Sciences, University of Groningen \| 2025, July
+:::
+
+# Teaching
+
+{{< include _content/teaching.qmd >}}
+
+# Professional Development
+
+{{< include _content/training.qmd >}}
+
+# Service & Memberships
+
+::: hanging-indent
+**Member, PhD Selection Committee**, University of Groningen \| 2026
+
+**Member**, Interuniversity Graduate School of Psychometrics and Sociometrics (IOPS) \| 2025–present
+:::
+
+# Skills
+
+{{< include _content/skills.qmd >}}

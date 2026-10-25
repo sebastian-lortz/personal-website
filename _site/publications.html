@@ -123,6 +123,10 @@ cookieconsent.run({
 <span class="menu-text">Presentations</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./blog.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./teaching.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
@@ -130,20 +134,19 @@ cookieconsent.run({
     <a class="nav-link" href="./education.html"> 
 <span class="menu-text">Education</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./cv.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/sebastian-lortz"> <i class="bi bi-brands/github" role="img">
+    <a class="nav-link" href="https://github.com/sebastian-lortz"> <i class="bi bi-github" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/sebastian-lortz-408797213/"> <i class="bi bi-brands/linkedin" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/yourprofile"> <i class="bi bi-brands/twitter" role="img">
+    <a class="nav-link" href="https://www.linkedin.com/in/sebastian-lortz-408797213/"> <i class="bi bi-linkedin" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -164,10 +167,8 @@ cookieconsent.run({
    
   <ul>
   <li><a href="#journal-articles" id="toc-journal-articles" class="nav-link active" data-scroll-target="#journal-articles">Journal Articles</a></li>
-  <li><a href="#submitted" id="toc-submitted" class="nav-link" data-scroll-target="#submitted">Submitted</a>
-  <ul class="collapse">
+  <li><a href="#submitted" id="toc-submitted" class="nav-link" data-scroll-target="#submitted">Submitted</a></li>
   <li><a href="#software" id="toc-software" class="nav-link" data-scroll-target="#software">Software</a></li>
-  </ul></li>
   </ul>
 </nav>
     </div>
@@ -198,14 +199,16 @@ cookieconsent.run({
 <div class="hanging-indent">
 <p><strong>Lortz, S. A. J.</strong>, Setiono, A., Kovacs, M., &amp; van Ravenzwaaij, D. (2026). Sample-size planning for frequentist and Bayesian 2 × 2 analysis-of-variance designs. <em>Advances in Methods and Practices in Psychological Science, 9</em>(1). <a href="https://doi.org/10.1177/25152459251398805" class="uri">https://doi.org/10.1177/25152459251398805</a></p>
 <p>Paap, M. C. S., <strong>Lortz, S. A. J.</strong>, Hummelen, B., Fjermestad-Noll, J., Kvarstein, E., &amp; Pedersen, G. (2025). An investigation of longitudinal measurement invariance and item response theory analysis of the LPFS-BF 2.0 in a large clinical Norwegian sample. <em>Personality and Mental Health, 19</em>(3), e70032. <a href="https://doi.org/10.1002/pmh.70032" class="uri">https://doi.org/10.1002/pmh.70032</a></p>
-<p><strong>[Author(s)]</strong> ([Year]). <em>[Title of article]</em>. [Journal Name, Volume(Issue)], [pages]. [DOI or URL]</p>
 </div>
 </section>
-<section id="submitted" class="level1">
-<h1>Submitted</h1>
+<section id="submitted" class="level2">
+<h2 class="anchored" data-anchor-id="submitted">Submitted</h2>
 <div class="hanging-indent">
-<p><strong>Lortz, S. A. J.</strong>, Post, W. J., Koopman, L. , Paap, M. C. S. (2026). Stability and Scalability in Mokken Scale Analysis in the Presence of Small Samples and Deviant Items with Dichotomous Response Data. Manuscript submitted for publication.</p>
+<p><strong>Lortz, S. A. J.</strong>, Frans, N., Veldkamp, B. P., Agelink van Rentergem, J. A., Schagen, S. B., &amp; Paap, M. C. S. (2026). Sample-Size Planning for Item Calibration with the Joint Hierarchical Model of Response Accuracy and Response Time. Manuscript submitted for publication.</p>
+<p><strong>Lortz, S. A. J.</strong>, Post, W. J., Koopman, L., &amp; Paap, M. C. S. (2026). Stability and Scalability in Mokken Scale Analysis in the Presence of Small Samples and Deviant Items with Dichotomous Response Data. Manuscript submitted for publication.</p>
+<p><strong>Lortz, S. A. J.</strong>, Timmerman, M. E., &amp; van Ravenzwaaij, D. (2026). Simulating Raw Data from Reported Summary Statistics: A Non-parametric Approach. Manuscript submitted for publication.</p>
 </div>
+</section>
 <section id="software" class="level2">
 <h2 class="anchored" data-anchor-id="software">Software</h2>
 <div class="hanging-indent">
@@ -213,7 +216,6 @@ cookieconsent.run({
 </div>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -290,7 +292,7 @@ cookieconsent.run({
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/sebastian-lortz\.github\.io\/personal-website");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

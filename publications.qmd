@@ -1,27 +1,5 @@
 ---
 title: "Publications"
-format: 
-  html:
-    css: styles.css
 ---
 
-## Journal Articles
-::: hanging-indent
-**Lortz, S. A. J.**, Setiono, A., Kovacs, M., & van Ravenzwaaij, D. (2026). Sample-size planning for frequentist and Bayesian 2 × 2 analysis-of-variance designs. *Advances in Methods and Practices in Psychological Science, 9*(1). <https://doi.org/10.1177/25152459251398805>
-
-  Paap, M. C. S., **Lortz, S. A. J.**, Hummelen, B., Fjermestad-Noll, J., Kvarstein, E., & Pedersen, G. (2025). An investigation of longitudinal measurement invariance and item response theory analysis of the LPFS-BF 2.0 in a large clinical Norwegian sample. *Personality and Mental Health, 19*(3), e70032. <https://doi.org/10.1002/pmh.70032>
-
-  **\[Author(s)\]** (\[Year\]). *\[Title of article\]*. \[Journal Name, Volume(Issue)\], \[pages\]. \[DOI or URL\]
-:::
-
-# Submitted
-
-::: hanging-indent
-**Lortz, S. A. J.**, Post, W. J., Koopman, L. , Paap, M. C. S. (2026). Stability and Scalability in Mokken Scale Analysis in the Presence of Small Samples and Deviant Items with Dichotomous Response Data. Manuscript submitted for publication.
-
-:::
-
-## Software
-::: hanging-indent
-**Lortz, S. A. J.**, Setiono, A., Kovacs, M., & van Ravenzwaaij, D. (2025). Sample Size Planning for Frequentist and Bayesian 2 × 2 ANOVA Designs (v0.2.0). *Zenodo.* <https://doi.org/10.5281/zenodo.17362197>
-:::
+{{< include _content/publications.qmd >}}

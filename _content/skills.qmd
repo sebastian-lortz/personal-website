@@ -1,0 +1,13 @@
+::: hanging-indent
+**Statistical Modelling:**\
+- **Latent Variable Methods:** (Non-)parametric Item Response Theory, Mokken Scaling, Response Time Models, Structural Equation Modelling.\
+- **Supervised Methods:** Regression Models (Generalized, Penalized, Spatial, Splines, GAM), Regression Trees (bagging, random forest, boosting, BART), Network Analysis.\
+- **Unsupervised Methods:** K-means, Hierarchical Clustering, Principal Components.\
+- **Time-Series & Other Analyses:** (Non-linear) Time-Series Models, Cross-Recurrence Quantification Analysis, Detrended Fluctuation Analysis.
+
+**Algorithms:** Markov Chain Monte Carlo, Gibbs Sampling, Simulated Annealing, Particle Swarm Optimization, Hill Climbing.
+:::
+
+**Languages:** English (C1–C2), German (Native), Dutch (A2).
+
+**Software & Services:** R, GitHub, Quarto, LaTeX, SPSS, JASP.

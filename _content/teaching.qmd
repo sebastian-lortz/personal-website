@@ -1,0 +1,49 @@
+## Workshops
+::: hanging-indent
+**Introduction to R for Staff**, Nieuwenhuis Institute, University of Groningen, Groningen \| 2026–2029\
+Workshops introducing university staff members to data analysis in R.\
+Materials: [Material](https://github.com/sebastian-lortz/r_tutorial/tree/staff)
+
+**Introduction to R for Students**, Pedagogical Sciences, University of Groningen, Groningen \| 2026–2027\
+Developed six weeks of practical R materials that students work through in supervised sessions.\
+Materials: [Material](https://github.com/sebastian-lortz/r_tutorial)
+:::
+
+## Supervision
+::: hanging-indent
+**Master Thesis Supervision**, Pedagogical Sciences, University of Groningen, Groningen \| 2026–2027\
+Supervising a Master's thesis on piloting computer-based tests of cognitive functioning and analyzing the resulting data.
+
+**Bachelor Supervision**, Pedagogical Sciences, University of Groningen, Groningen \| 2025–2026\
+Supervised a group of Bachelor students on parametric and nonparametric Item Response Theory (IRT) analyses, guiding their methodological choices, data analyses, and interpretation of results.
+:::
+
+## Courses
+::: hanging-indent
+**IRT Workshop**, Pedagogical Sciences, University of Groningen, Groningen \| 2025–present\
+Taught practical sessions on the application of parametric and nonparametric Item Response Theory (IRT) methods.
+
+**Test Theory**, Pedagogical Sciences, University of Groningen, Groningen \| 2025–present\
+Taught practical sessions on test theory, using datasets generated for the exercises.
+
+**Applied Statistics**, Research Master Behavioural Sciences, University of Groningen, Groningen \| 2025–present\
+Taught seminars on the application of statistical methods in R. Supported students in analyzing their own research projects with a variety of techniques.
+
+**SPSS Practical**, Pedagogical Sciences, University of Groningen, Groningen \| 2025–2026\
+Supervised practical sessions on conducting statistical analyses in SPSS.
+
+**Research Methods and Techniques**, Teacher Education, University of Groningen, Groningen \| 2025–2026\
+Supervised practical sessions.
+
+**Statistics II**, Psychology, University of Groningen, Groningen \| 2022–2025\
+Taught seminars on the theory and application of basic statistical methods, including multiple linear regression, mixed ANOVA, and Bayesian statistics, using JASP.
+:::
+
+## Consulting
+::: hanging-indent
+**Methodological Consulting**, Pedagogical Sciences, University of Groningen, Groningen \| 2026–present\
+Methodological and statistical advice for researchers and students in the department.
+
+**Statistics Tutor**, Freelance, Groningen, Groningen \| 2020-2025\
+Provided individualized tutoring to enhance students' comprehension and application of statistical analyses, along with tailored methodological consulting for thesis projects.
+:::

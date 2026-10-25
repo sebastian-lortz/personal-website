@@ -1,0 +1,9 @@
+::: hanging-indent
+**Lortz, S. A. J.**, Frans, N., Veldkamp, B. P., Agelink van Rentergem, J. A., Schagen, S. B., & Paap, M. C. S. (2026, November). Sample-Size Planning for Item Calibration with the Joint Hierarchical Model of Response Accuracy and Response Time [Conference Presentation]. 40th IRT Workshop.
+
+**Lortz, S. A. J.** (2026, November). Introduction to R for Staff Members [Workshop]. University of Groningen, Groningen, Netherlands.
+
+**Lortz, S. A. J.**, Post, W. J., Koopman, L., & Paap, M. C. S. (2024, November). Stability and Scalability in Mokken Scale Analysis: Challenges with Small Samples and Deviant Items [Conference Presentation]. 38th IRT Workshop, University of Twente, Enschede, Netherlands. [Slides](https://sebastian-lortz.github.io/personal-website/files/presentations/2024_irt_workshop.pdf)
+
+**Lortz, S. A. J.** (2024, April). A Simple Introduction to Monte Carlo Simulations for a Priori Power Analyses [Seminar Presentation]. University of Groningen, Groningen, Netherlands. [Slides](https://sebastian-lortz.github.io/personal-website/files/presentations/2024_mc_rug.pdf) [R Code](https://sebastian-lortz.github.io/personal-website/files/presentations/2024_mc_rug.R)
+:::

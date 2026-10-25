@@ -123,6 +123,10 @@ cookieconsent.run({
 <span class="menu-text">Presentations</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./blog.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./teaching.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
@@ -130,20 +134,19 @@ cookieconsent.run({
     <a class="nav-link" href="./education.html"> 
 <span class="menu-text">Education</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./cv.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/sebastian-lortz"> <i class="bi bi-brands/github" role="img">
+    <a class="nav-link" href="https://github.com/sebastian-lortz"> <i class="bi bi-github" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/sebastian-lortz-408797213/"> <i class="bi bi-brands/linkedin" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/yourprofile"> <i class="bi bi-brands/twitter" role="img">
+    <a class="nav-link" href="https://www.linkedin.com/in/sebastian-lortz-408797213/"> <i class="bi bi-linkedin" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -158,14 +161,8 @@ cookieconsent.run({
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#presentations" id="toc-presentations" class="nav-link active" data-scroll-target="#presentations">Presentations</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -189,16 +186,14 @@ cookieconsent.run({
 </header>
 
 
-<section id="presentations" class="level2">
-<h2 class="anchored" data-anchor-id="presentations">Presentations</h2>
 <div class="hanging-indent">
-<p><strong>Lortz, S. A. J.</strong> (2024, December 16). Simulating Raw Data from Limited Statistics: Advancing Replication Study Decision-Making [Seminar Presentation]. University of Groningen, Groningen, Netherlands.</p>
-<p><strong>Lortz, S. A. J.</strong>, Post, W. J., Koopman, L., Paap, M. C. S. (2024, November 28). Stability and Scalability in Mokken Scale Analysis: Challenges with Small Samples and Deviant Items [Conference Presentation]. 38th IRT Workshop, University of Twente, Enschede, Netherlands.</p>
-<p><strong>Lortz, S. A. J.</strong> (2024, April 24). A Simple Introduction to Monte Carlo Simulations for a Priori Power Analyses [Seminar Presentation]. University of Groningen, Groningen, Netherlands.</p>
+<p><strong>Lortz, S. A. J.</strong>, Frans, N., Veldkamp, B. P., Agelink van Rentergem, J. A., Schagen, S. B., &amp; Paap, M. C. S. (2026, November). Sample-Size Planning for Item Calibration with the Joint Hierarchical Model of Response Accuracy and Response Time [Conference Presentation]. 40th IRT Workshop.</p>
+<p><strong>Lortz, S. A. J.</strong> (2026, November). Introduction to R for Staff Members [Workshop]. University of Groningen, Groningen, Netherlands.</p>
+<p><strong>Lortz, S. A. J.</strong>, Post, W. J., Koopman, L., &amp; Paap, M. C. S. (2024, November). Stability and Scalability in Mokken Scale Analysis: Challenges with Small Samples and Deviant Items [Conference Presentation]. 38th IRT Workshop, University of Twente, Enschede, Netherlands. <a href="https://sebastian-lortz.github.io/personal-website/files/presentations/2024_irt_workshop.pdf">Slides</a></p>
+<p><strong>Lortz, S. A. J.</strong> (2024, April). A Simple Introduction to Monte Carlo Simulations for a Priori Power Analyses [Seminar Presentation]. University of Groningen, Groningen, Netherlands. <a href="https://sebastian-lortz.github.io/personal-website/files/presentations/2024_mc_rug.pdf">Slides</a> <a href="https://sebastian-lortz.github.io/personal-website/files/presentations/2024_mc_rug.R">R Code</a></p>
 </div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -274,7 +269,7 @@ cookieconsent.run({
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/sebastian-lortz\.github\.io\/personal-website");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

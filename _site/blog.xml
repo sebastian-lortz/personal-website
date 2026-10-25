@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Sebastian A. J. Lortz</title>
+<link>https://sebastian-lortz.github.io/personal-website/blog.html</link>
+<atom:link href="https://sebastian-lortz.github.io/personal-website/blog.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.8.27</generator>
+<lastBuildDate>Sat, 24 Oct 2026 22:00:00 GMT</lastBuildDate>
+<item>
+  <title></title>
+  <dc:creator>Sebastian A. J. Lortz</dc:creator>
+  <link>https://sebastian-lortz.github.io/personal-website/posts/2026-10_ssp-2x2-anova/</link>
+  <description><![CDATA[ undefined ]]></description>
+  <category>sample size</category>
+  <category>Bayesian statistics</category>
+  <category>software</category>
+  <guid>https://sebastian-lortz.github.io/personal-website/posts/2026-10_ssp-2x2-anova/</guid>
+  <pubDate>Sat, 24 Oct 2026 22:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

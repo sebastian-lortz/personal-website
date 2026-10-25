@@ -1,0 +1,9 @@
+In my PhD project, *Models for Computer Adaptive Testing of Cognitive Functions* (2025–2029, funded by KWF), I develop the psychometric models and algorithms behind a home-based computerized adaptive test (CAT) that screens cancer survivors for cognitive impairment. The project is a collaboration with the Netherlands Cancer Institute and the software provider Eyra. My work focuses on:
+
+-   developing item response theory models for neuropsychological test data;
+-   modelling response accuracy and response time jointly to improve inference;
+-   calibrating item banks with these models efficiently;
+-   developing item selection algorithms for computerized testing;
+-   combining sub-test outcomes into a single actionable decision.
+
+**Supervisors:** Dr. Muirne C. S. Paap and Dr. Niek Frans (University of Groningen); Prof. Sanne B. Schagen and Dr. Joost A. Agelink van Rentergem (Netherlands Cancer Institute).

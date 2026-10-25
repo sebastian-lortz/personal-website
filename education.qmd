@@ -1,50 +1,13 @@
 ---
 title: "Education"
-format: html
 ---
 
 ## Degrees
 
-::: hanging-indent
-**M.Sc. Research Behavioural and Social Sciences, Specialisation in Psychometrics & Statistics**, University of Groningen \| 09/2023 – 07/2025, *cum laude*.\
-- **Elective Courses:** Structural Equation Modelling; Multilevel Analysis; Network Analysis; Statistical Modelling of Single Cases; Complexity, Dynamics and Development; Modelling Interactions of Persons and Variables over Time.\
-- **Projects:** From Problem Analysis to Intervention Design; Multidisciplinary Research in Action; Applied Statistics.\
-- **Master Thesis:** Advancing Replication Study-Decision Making with DISCOURSE: Data-Simulation via Iterative Stochastic Combinatorial Optimization Using Reported Summary Estimates.
+{{< include _content/degrees.qmd >}}
 
-**B.Sc. Psychology**, Free Choice Minor, University of Groningen \| 09/2020 – 08/2023.\
-- **Bachelor Thesis:** Bulimic Symptoms Amongst College Women: Examining the Roles of Upward Social Comparison Tendency, Body Envy, and Negative Urgency.
-
-**B.Sc. Health Sciences**, Free Choice Minor, Technical University of Munich \| 10/2016 – 08/2020.\
-- **Bachelor Thesis:** Terror Management Theory and Individual Differences: The Influence of Action-State Orientation on Cultural Worldview Defence after Mortality Salience.\
-- **ERASMUS:** Semester at the University of Vienna, Faculty of Psychology.
-:::
-
-## Interuniversity Graduate School of Psychometrics and Sociometrics (IOPS)
-
-::: hanging-indent
-**Statistical Learning and Prediction**, Tom Wilderjans & Marjolein Fokkema, Leiden University \| January 27–28, 2026 (Elective, 2 ECTS)\
-Provided a comprehensive introduction to statistical learning techniques, including supervised and unsupervised methods, based on the book *Introduction to Statistical Learning* <https://www.statlearning.com>. Focused on building theoretical understanding and practical skills for applying statistical learning methods in empirical research.
-:::
-
-## Seminars & Workshops
-
-::: hanging-indent
-**University of Groningen:** Markov Chain Monte Carlo Sampling; Socio–Semantic Networks; Generative AI Workshop; Cluster Analysis and Mixture Models; Causality in Observational Data; Mixture Modelling of Longitudinal Data; Regression for Categorical Data; Thematic Analysis; Systematic Review and Meta-Analysis; Dutch (0–A2); Dutch (A2–A2/B1).
-
-**Future Learn:** Privacy in Research; General Data Protection Regulation; Data Protection Agreements.
-:::
+{{< include _content/training.qmd >}}
 
 ## Skills
 
-::: hanging-indent
-**Statistical Modelling:**\
-- **Latent Variable Methods:** (Non-)parametric Item Response Theory, Mokken Scaling, Response Time Models, Structural Equation Modelling.\
-- **Supervised Methods:** Regression Models (Generalized, Penalized, Spatial, Splines, GAM), Regression Trees (bagging, random forest, boosting, BART), Network Analysis.\
-- **Unsupervised Methods:** K-means, Hierarchical Clustering, Principal Components. - **Time-Series & Other Analyses:** (Non-linear) Time-Series Models, Cross-Recurrence Quantification Analysis, Detrended Fluctuation Analysis.
-
-**Algorithms:** Markov Chain Monte Carlo, Gibbs Sampling, Simulated Annealing, Particle Swarm Optimization, Hill Climbing.
-:::
-
-**Languages:** English (C1–C2), German (Native), Dutch (A2/B1).
-
-**Software:** R (advanced), GitHub, SPSS, JASP, Microsoft Office.
+{{< include _content/skills.qmd >}}

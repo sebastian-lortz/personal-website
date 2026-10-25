@@ -1,8 +1,11 @@
 project:
   type: website
+  resources:
+    - "files/**"
 
 website:
   title: "Sebastian A. J. Lortz"
+  site-url: "https://sebastian-lortz.github.io/personal-website"
   navbar:
     left:
       - text: "Home"
@@ -11,17 +14,19 @@ website:
         href: publications.qmd
       - text: "Presentations"
         href: presentations.qmd
+      - text: "Blog"
+        href: blog.qmd
       - text: "Teaching"
         href: teaching.qmd
       - text: "Education"
-        href: education.qmd 
+        href: education.qmd
+      - text: "CV"
+        href: cv.qmd
     right:
-      - icon: brands/github
+      - icon: github
         href: "https://github.com/sebastian-lortz"
-      - icon: brands/linkedin
+      - icon: linkedin
         href: "https://www.linkedin.com/in/sebastian-lortz-408797213/"
-      - icon: brands/twitter
-        href: "https://twitter.com/yourprofile"
 
   page-footer:
     center: "I created this site with [Quarto](https://quarto.org/). To see the code [visit the repo here.](https://github.com/sebastian-lortz/personal-website)"
@@ -32,7 +37,7 @@ format:
     theme: flatly
     css: styles.css
     toc: true
-    
+
 editor: visual
 
 execute:

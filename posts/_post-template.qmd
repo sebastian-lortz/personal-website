@@ -1,0 +1,51 @@
+---
+# HOW TO USE
+# 1. Copy this file to posts/YYYY-MM_short-name/index.qmd
+# 2. Fill in the fields below and write the post.
+# 3. Delete `draft: true` when it is ready to go online.
+# (Files starting with "_" are ignored by Quarto, so this template never appears on the site.)
+
+title: "Title of the post"
+date: 2026-01-31
+description: "One sentence shown in the Blog listing."
+categories: [category-1, category-2]
+# image: thumbnail.png     # optional picture for the listing, placed in the post folder
+draft: true
+---
+
+Opening paragraph: the question or problem in two or three sentences, written for a reader outside your field.
+
+## Background
+
+Why this matters and what was missing before.
+
+## What we did
+
+The approach in plain language: data, method, or design.
+
+## What we found
+
+The main results. A figure often helps:
+
+<!-- ![Caption of the figure.](figure.png){fig-alt="Short description for screen readers."} -->
+
+## Why it matters
+
+What the results mean for researchers or practitioners.
+
+<!--
+Optional R code. Code in posts is frozen: it runs once when the post is
+first rendered and is not re-run afterwards.
+
+```{r}
+#| code-fold: true
+#| fig-cap: "Caption of the figure."
+library(ggplot2)
+```
+-->
+
+## Read more
+
+- Paper: Author, A. A., & Author, B. B. (Year). Title. *Journal, Volume*(Issue). <https://doi.org/...>
+- Slides: [PDF](https://sebastian-lortz.github.io/personal-website/files/presentations/YYYY-MM_short-name.pdf)
+- Code: [GitHub](https://github.com/sebastian-lortz/...)
