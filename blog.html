@@ -82,9 +82,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -222,7 +222,7 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QmF5ZXNpYW4lMjBzdGF0aXN0aWNz">Bayesian statistics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c2FtcGxlJTIwc2l6ZQ==">sample size <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c29mdHdhcmU=">software <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -251,7 +251,40 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="c2FtcGxlJTIwc2l6ZSUyQ0JheWVzaWFuJTIwc3RhdGlzdGljcyUyQ3NvZnR3YXJl" data-listing-date-sort="1792879200000" data-listing-file-modified-sort="1792959569770" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="360">
+<div class="thumbnail"><a href="./posts/2026-10_ssp-2x2-anova/index.html" class="no-external">
 
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2026-10_ssp-2x2-anova/index.html" class="no-external">Planning the sample size for Bayesian 2 × 2 ANOVA designs</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('c2FtcGxlJTIwc2l6ZQ=='); return false;">sample size</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QmF5ZXNpYW4lMjBzdGF0aXN0aWNz'); return false;">Bayesian statistics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c29mdHdhcmU='); return false;">software</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/2026-10_ssp-2x2-anova/index.html" class="no-external">
+<p>A short summary of our paper and accompanying app.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/2026-10_ssp-2x2-anova/index.html" class="no-external">
+<div class="listing-date">
+Oct 25, 2026
+</div>
+<div class="listing-author">
+Sebastian A. J. Lortz
+</div>
+</a>
+</div>
+</div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div></main> <!-- /main -->

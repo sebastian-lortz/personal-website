@@ -4,7 +4,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "No matching items"
+    "text": "Planning the sample size for Bayesian 2 × 2 ANOVA designs\n\n\n\nsample size\n\nBayesian statistics\n\nsoftware\n\n\n\nA short summary of our paper and accompanying app.\n\n\n\n\n\nOct 25, 2026\n\n\nSebastian A. J. Lortz\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "cv.html",
@@ -166,6 +166,34 @@
     "title": "Teaching",
     "section": "Consulting",
     "text": "Consulting\n\nMethodological Consulting, Pedagogical Sciences, University of Groningen, Groningen | 2026–present\nMethodological and statistical advice for researchers and students in the department.\nStatistics Tutor, Freelance, Groningen, Groningen | 2020-2025\nProvided individualized tutoring to enhance students’ comprehension and application of statistical analyses, along with tailored methodological consulting for thesis projects."
+  },
+  {
+    "objectID": "posts/2026-10_ssp-2x2-anova/index.html",
+    "href": "posts/2026-10_ssp-2x2-anova/index.html",
+    "title": "Planning the sample size for Bayesian 2 × 2 ANOVA designs",
+    "section": "",
+    "text": "Before collecting data, researchers need to decide how many participants are enough to answer their question reliably, without wasting resources or putting unnecessary burden on participants. For frequentist tests there is established guidance, but for Bayesian analyses of these designs practical tools have been scarce.\nIn our paper in Advances in Methods and Practices in Psychological Science, we make frequentist and Bayesian sample-size planning for 2 × 2 ANOVA designs available to applied researchers. We developed two new sample-size planning methods for Bayesian interval testing and combined them with two existing approaches, so researchers can plan their sample size within the framework they intend to use for the analysis."
+  },
+  {
+    "objectID": "posts/2026-10_ssp-2x2-anova/index.html#bayesian-interval-testing",
+    "href": "posts/2026-10_ssp-2x2-anova/index.html#bayesian-interval-testing",
+    "title": "Planning the sample size for Bayesian 2 × 2 ANOVA designs",
+    "section": "Bayesian interval testing",
+    "text": "Bayesian interval testing\nBoth interval approaches start from the same idea: instead of asking whether an effect is exactly zero, they ask whether it is small enough to be negligible. Before the analysis, the researcher defines an interval of effect sizes around zero that are considered practically irrelevant, for example standardized effects between −0.1 and 0.1.\n\nRegion of practical equivalence (ROPE): the posterior distribution of the effect is compared with this interval. If the 95% highest density interval lies entirely inside the ROPE, the effect is considered practically equivalent to zero; if it lies entirely outside, the effect is considered meaningful; otherwise, the data are inconclusive.\nBayesian equivalence interval test: a Bayes factor compares two hypotheses: that the effect lies inside the interval, and that it lies outside. It expresses how much more likely the data are under one hypothesis than under the other, so the evidence for a negligible effect can be quantified directly.\n\nFor both approaches, sample-size planning answers the question of how many participants are needed so that, with a chosen probability, the analysis reaches a clear conclusion."
+  },
+  {
+    "objectID": "posts/2026-10_ssp-2x2-anova/index.html#try-it-yourself",
+    "href": "posts/2026-10_ssp-2x2-anova/index.html#try-it-yourself",
+    "title": "Planning the sample size for Bayesian 2 × 2 ANOVA designs",
+    "section": "Try it yourself",
+    "text": "Try it yourself\nTo make the methods easy to use, we implemented them in an R package with an accompanying Shiny app, so no programming is needed to get a sample-size recommendation. Check out the app here: https://martonbalazskovacs.shinyapps.io/SampleSizePlanner/."
+  },
+  {
+    "objectID": "posts/2026-10_ssp-2x2-anova/index.html#read-more",
+    "href": "posts/2026-10_ssp-2x2-anova/index.html#read-more",
+    "title": "Planning the sample size for Bayesian 2 × 2 ANOVA designs",
+    "section": "Read more",
+    "text": "Read more\n\nPaper: Lortz, S. A. J., Setiono, A., Kovacs, M., & van Ravenzwaaij, D. (2026). Sample-size planning for frequentist and Bayesian 2 × 2 analysis-of-variance designs. Advances in Methods and Practices in Psychological Science, 9(1). https://doi.org/10.1177/25152459251398805\nSoftware: https://doi.org/10.5281/zenodo.17362197"
   },
   {
     "objectID": "publications.html",

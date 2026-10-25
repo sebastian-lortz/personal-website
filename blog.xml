@@ -10,6 +10,47 @@
 <atom:link href="https://sebastian-lortz.github.io/personal-website/blog.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Sun, 25 Oct 2026 18:18:30 GMT</lastBuildDate>
+<lastBuildDate>Sat, 24 Oct 2026 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Planning the sample size for Bayesian 2 × 2 ANOVA designs</title>
+  <dc:creator>Sebastian A. J. Lortz</dc:creator>
+  <link>https://sebastian-lortz.github.io/personal-website/posts/2026-10_ssp-2x2-anova/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Before collecting data, researchers need to decide how many participants are enough to answer their question reliably, without wasting resources or putting unnecessary burden on participants. For frequentist tests there is established guidance, but for Bayesian analyses of these designs practical tools have been scarce.</p>
+<p>In our paper in <em>Advances in Methods and Practices in Psychological Science</em>, we make frequentist and Bayesian sample-size planning for 2 × 2 ANOVA designs available to applied researchers. We developed two new sample-size planning methods for Bayesian interval testing and combined them with two existing approaches, so researchers can plan their sample size within the framework they intend to use for the analysis.</p>
+<section id="bayesian-interval-testing" class="level2">
+<h2 class="anchored" data-anchor-id="bayesian-interval-testing">Bayesian interval testing</h2>
+<p>Both interval approaches start from the same idea: instead of asking whether an effect is exactly zero, they ask whether it is small enough to be negligible. Before the analysis, the researcher defines an interval of effect sizes around zero that are considered practically irrelevant, for example standardized effects between −0.1 and 0.1.</p>
+<ul>
+<li><strong>Region of practical equivalence (ROPE):</strong> the posterior distribution of the effect is compared with this interval. If the 95% highest density interval lies entirely inside the ROPE, the effect is considered practically equivalent to zero; if it lies entirely outside, the effect is considered meaningful; otherwise, the data are inconclusive.</li>
+<li><strong>Bayesian equivalence interval test:</strong> a Bayes factor compares two hypotheses: that the effect lies inside the interval, and that it lies outside. It expresses how much more likely the data are under one hypothesis than under the other, so the evidence for a negligible effect can be quantified directly.</li>
+</ul>
+<p>For both approaches, sample-size planning answers the question of how many participants are needed so that, with a chosen probability, the analysis reaches a clear conclusion.</p>
+</section>
+<section id="try-it-yourself" class="level2">
+<h2 class="anchored" data-anchor-id="try-it-yourself">Try it yourself</h2>
+<p>To make the methods easy to use, we implemented them in an R package with an accompanying Shiny app, so no programming is needed to get a sample-size recommendation. Check out the app here: <a href="https://martonbalazskovacs.shinyapps.io/SampleSizePlanner/" class="uri">https://martonbalazskovacs.shinyapps.io/SampleSizePlanner/</a>.</p>
+</section>
+<section id="read-more" class="level2">
+<h2 class="anchored" data-anchor-id="read-more">Read more</h2>
+<ul>
+<li>Paper: Lortz, S. A. J., Setiono, A., Kovacs, M., &amp; van Ravenzwaaij, D. (2026). Sample-size planning for frequentist and Bayesian 2 × 2 analysis-of-variance designs. <em>Advances in Methods and Practices in Psychological Science, 9</em>(1). <a href="https://doi.org/10.1177/25152459251398805" class="uri">https://doi.org/10.1177/25152459251398805</a></li>
+<li>Software: <a href="https://doi.org/10.5281/zenodo.17362197" class="uri">https://doi.org/10.5281/zenodo.17362197</a></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>sample size</category>
+  <category>Bayesian statistics</category>
+  <category>software</category>
+  <guid>https://sebastian-lortz.github.io/personal-website/posts/2026-10_ssp-2x2-anova/</guid>
+  <pubDate>Sat, 24 Oct 2026 22:00:00 GMT</pubDate>
+</item>
 </channel>
 </rss>
