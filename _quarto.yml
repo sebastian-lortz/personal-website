@@ -2,20 +2,38 @@ project:
   type: website
 
 website:
-  title: "personal-website"
+  title: "Sebastian A. J. Lortz"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: "Home"
+        href: index.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "Presentations"
+        href: presentations.qmd
+      - text: "Teaching"
+        href: teaching.qmd
+      - text: "Education"
+        href: education.qmd 
+    right:
+      - icon: brands/github
+        href: "https://github.com/sebastian-lortz"
+      - icon: brands/linkedin
+        href: "https://www.linkedin.com/in/sebastian-lortz-408797213/"
+      - icon: brands/twitter
+        href: "https://twitter.com/yourprofile"
+
+  page-footer:
+    center: "I created this site with [Quarto](https://quarto.org/). To see the code [visit the repo here.](https://github.com/sebastian-lortz/personal-website)"
+  cookie-consent: true
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: flatly
     css: styles.css
     toc: true
-
+    
 editor: visual
 
+execute:
+  freeze: auto

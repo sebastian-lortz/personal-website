@@ -1,11 +1,40 @@
 ---
-title: "personal-website"
+title: "Sebastian A. J. Lortz"
+image: images/bio-pic.jpg
+about:
+  template: trestles
+  links:
+    - text: LinkedIn
+      icon: linkedin
+      url: "https://www.linkedin.com/in/sebastian-lortz-408797213/"
+    - text: GitHub
+      icon: github
+      url: "https://github.com/sebastian-lortz"
+    - text: ORCID
+      icon: person-circle
+      url: "https://orcid.org/0009-0007-0281-7996"
+    - text: RUG
+      icon: bank
+      url: "https://www.rug.nl/staff/s.a.j.lortz/"
+    - text: Email
+      icon: envelope
+      url: "mailto:s.a.j.lortz@gmail.com"
+comments: false
 ---
 
-This is a Quarto website.
+# Sebastian Lortz
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Bio
+I am currently pursuing a PhD in psychometrics, backed by a foundation in statistics, psychology and health sciences. In my roles at the university, I actively contribute to research, employ advanced statistical methodologies, and foster collaborative learning environments.
 
-```{r}
-1 + 1
-```
+My diverse academic and non-academic experience provide a comprehensive perspective, shaping my personal skills. I excel in varied environments, enhancing my collaborative potential in diverse teams and bringing adaptability and effective communication to projects.
+
+Open to professional connections, I actively seek collaborations in the academic and research communities!
+
+## Research Interests
+
+My research interests is broad and centers around
+-   Item Response Theory and Response Time Modeling
+-   Computerized Adaptive Testing
+-   Application of statistical (learning) methods
+

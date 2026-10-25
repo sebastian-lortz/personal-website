@@ -1,0 +1,29 @@
+---
+title: "Teaching"
+format: html
+---
+
+## Supervision
+::: hanging-indent
+**Bachelor Supervision**, Pedagogical Sciences, University of Groningen, Groningen  
+Supervised a group of Bachelor students on parametric and nonparametric Item Response Theory (IRT) analyses, guiding their methodological choices, data analyses, and interpretation of results.
+
+**Statistics and Research Consultancy**, The Methodology Shop, University of Groningen, Groningen  
+Delivered targeted statistical consultation and methodological guidance to (Ph.D.) students and staff during focused 15–30-minute sessions. Covered a wide range of projects, including Bachelor/Master theses, Ph.D. dissertations, (inter)national research projects, and proposals for theses and doctoral studies.
+
+**Statistics Tutor**, University of Groningen, Groningen  
+Provided individualized tutoring to enhance students' comprehension and application of statistical analyses, along with tailored methodological consulting for thesis projects.
+
+**German Teacher**, Tobian Language School  
+Instructed healthcare employees in German language skills, emphasizing practical and cross-cultural communication.
+:::
+
+## Courses
+::: hanging-indent
+**Applied Statistics**, Research Master Behavioural Sciences, University of Groningen, Groningen  
+Taught seminars in groups of ~20 students on the application of statistical methods in R. Supported students in analyzing their own research projects with a variety of techniques.
+
+**Statistics II**, B.Sc. Psychology, University of Groningen, Groningen  
+Taught seminars in groups of ~20 students on the theory and application of basic statistical methods, including multiple linear regression, mixed ANOVA, and Bayesian statistics, using JASP.
+
+:::
